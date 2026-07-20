@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Medias HTLM 5</title>
+</head>
+<body>
+    <h1>Dinamic Images</h1>
+    <p>Try to open this image in multiples different devices or simply zoom in and zoome out your browser.
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/photo-S.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/photo-M.png" type="image/png">
+        <img src="images/photo-G.png" alt="flexible image">
+    </picture>
+<h1>Playing Audios</h1>
+    <p>We'll learn how to add audios in HTML5</p>
+<audio preload="metadata" autoplay controls loop>
+    <Source src="medias/turn_in_the_sun-simon_herody.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
